@@ -1,0 +1,250 @@
+/*****BASE STYLES*****/
+
+body {
+     background-color: lightblue;
+}
+
+#portfolio {
+    height: 1250px;
+}
+
+#about {
+    height: 550px;
+}
+
+#contact {
+    height: 396px;
+}
+
+h2 {
+    font-family: 'Source Code Pro';
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    padding: 20px 0 20px 0;
+}
+
+h2 {
+    color: #0000cc;
+    font-weight: bolder;
+}
+
+h1, h4 {
+    color: #ffffff;
+}
+
+
+/*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+ 
+.third-width {
+    width: 396px;
+    float: left;
+}
+
+
+/*****HEADER*****/
+
+header {
+    height: 55px;
+}
+
+#self-title {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 30px;
+    font-weight: 800;
+    color:#0000cc;
+    text-align: left;
+    margin-top: 18px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    font-size: 30px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: bold;
+    color: #0000cc;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+/*****HEADER-2*****/
+
+#header-2 {
+    background-image: url(../img/doglaptop.jpg);
+    background-size:cover;
+    height: 596px;
+    width: 1100px;
+    margin-left: 75px;
+    clear: both;
+    border: #ff944d solid 3px}
+
+#slogan {
+    text-align: left;
+    font-size: 100px;
+    padding-left: 50px;
+    font-family:'Dancing Script';
+    font-weight: bolder;
+ }
+
+/*****MAIN*****/
+
+/*****WORK*****/
+
+#jubliee, #rogue, #recipes {
+    height: 400px;
+}
+
+.title-link {
+    color:#ff944d;
+    text-decoration: none;
+}
+
+.port {
+    height: 100px;
+}
+
+#myport {
+    padding-top: 10px;
+}
+.white {
+    color: #ff944d;
+    font-size: 26px;
+}
+
+.para {
+    color:#ffffff;
+    font-size: 24px;
+}
+span {
+    color: #0000cc;
+}
+#rogue img {
+    width: 500px;
+    height: 320px;
+    margin-left: 100px;
+    border: #ff944d solid 1px;
+}
+
+#portfolio img {
+    border: #ff944d solid 1px;
+}
+
+#jub-img {
+    padding-top: 25px;
+}
+
+#about-para {
+    padding-top: 25px;
+}
+
+.white {
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    text-align: center;
+}
+
+#recipes img{
+    width: 500px;
+    height: 315px;
+    margin-left:20px;
+    border: #ff944d solid 1px;
+}
+
+#jub-title {
+    padding-right: 20px;
+}
+/*****ABOUT*****/
+
+.about-para {
+    float:right;
+}
+#about {
+    background-image: url(../img/coffee.comp.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-right: 55px;
+}
+
+#about h2 {
+    padding-top: 25px;
+}
+
+#about img {
+    float:left;
+    margin-left: 40px;
+    margin-right: 12px;
+    border:#ff944d solid 2px;
+}
+
+#about p {
+    font-family: 'Dancing Script';
+    font-size: 24px;
+    font-weight:900;
+    text-align: center;
+    margin-right: 250px; 
+}
+
+/*****CONTACT*****/
+
+#contact h3 {
+    font-family: 'Montserrat Bold';
+    font-size: 24px;
+    font-weight: bolder;
+    color: #0000cc;
+    text-align: center;
+}
+
+#contact p {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+#middle{
+    background-color: #ffffff;
+    border: 3px solid #ff944d
+}
+
+#middle h3 {
+    color: #1f202b;
+}
+
+
+/*****FOOTER*****/
+
+footer {
+    text-align: center;
+    height: 50px;
+}
+
+h4 {
+    text-align: center;
+}
